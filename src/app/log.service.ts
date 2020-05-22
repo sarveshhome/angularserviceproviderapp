@@ -13,6 +13,6 @@ export class LogService {
   }
   getData(name: string)
   {
-    return 'Hi' + name;
+    return  name;
   }
 }

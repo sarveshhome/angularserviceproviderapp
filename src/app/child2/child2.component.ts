@@ -13,6 +13,6 @@ export class Child2Component implements OnInit {
 
   ngOnInit(): void {
     this.message = this.logservice.getData('child 2');
+    console.log('hello ' + this.message);
   }
-
 }

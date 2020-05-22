@@ -12,6 +12,7 @@ export class Child1Component implements OnInit {
 
   ngOnInit(): void {
     this.message = this.logservice.getData('child 1');
+    console.log('Hello ' + this.message);
   }
 
 }
